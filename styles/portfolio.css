@@ -89,6 +89,42 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+footer {
+  margin: 60px opx;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 150ms ease;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
